@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panorama test</title>
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.3/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.pannellum.org/2.3/pannellum.js"></script>
+    <style>
+        #panorama {
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<script>
+    pannellum.viewer('panorama', {
+        "type": "equirectangular",
+        "panorama": "images/Panorama_background.jpg"
+    });
+</script>
+<!--<iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://pannellum.org/images/alma.jpg"></iframe>-->
+
+</body>
+</html>
